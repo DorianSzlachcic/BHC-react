@@ -45,9 +45,6 @@ export default function VideoRoom({appId, token, uid, channel, otherUser}) {
                     <button className="btn" onClick={() => setCamOn(a => !a)}>
                         <i className={`i-camera ${!camOn ? "off" : ""}`} />
                     </button>
-                    <button className="btn" onClick={() => setCamOn(a => !a)}>
-                        Następna osoba
-                    </button>
                     </div>
                 </div>:
                 <div className="control">
